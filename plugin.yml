@@ -1,0 +1,19 @@
+name: CorePlugin
+version: 1.0.0
+main: de.deinserver.coreplugin.CorePlugin
+api-version: '1.21'
+authors: [DeinName]
+description: Clan-System, PvP Combat-Loot-GUI und Spielerrekord
+
+commands:
+  clan:
+    description: Hauptbefehl fuer das Clan-System
+    usage: /clan <create|invite|accept|leave|kick|disband|chat|info>
+  clanchat:
+    description: Sendet eine Nachricht an deinen Clan
+    aliases: [cc]
+    usage: /cc <Nachricht>
+  rekord:
+    description: Zeigt den All-Time Spielerrekord an
+    aliases: [record]
+    usage: /rekord
